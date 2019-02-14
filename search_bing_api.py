@@ -17,7 +17,7 @@ args = vars(ap.parse_args())
 # maximum number of results for a given search and (2) the group size
 # for results (maximum of 50 per request)
 API_KEY = "29c6fa77e3ca45aeab8edb99cd18c0f1"
-MAX_RESULTS = 500
+MAX_RESULTS = 250
 GROUP_SIZE = 50
 
 # set the endpoint API URL
