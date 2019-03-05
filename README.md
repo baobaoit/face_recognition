@@ -9,3 +9,5 @@ Bài tập lớn Chuyên đề<br/>
 6. numpy
 7. PIL
 8. requests
+## Dataset
+[Libor Spacek's Facial Images Databases](http://cmp.felk.cvut.cz/~spacelib/faces/ "Face Recognition Data")
