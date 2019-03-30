@@ -1,5 +1,4 @@
 # import the necessary packages
-from imutils import paths
 import argparse
 import os
 
