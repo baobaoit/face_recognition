@@ -3,8 +3,8 @@ Bài tập lớn Chuyên đề<br/>
 ## Libraries
 1. cmake
 2. opencv-python
-3. dlib
-4. face_recognition
+3. [dlib](http://dlib.net/ "dlib home page")
+4. [face_recognition](https://github.com/ageitgey/face_recognition "face_recognition repo")
 5. imutils
 6. numpy
 ## Dataset
