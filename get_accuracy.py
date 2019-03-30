@@ -74,6 +74,8 @@ for (i, imagePath) in enumerate(imagePaths):
             # select first entry in the dictionary)
             recognizeName = max(counts, key=counts.get)
 
+            print("[INFO] is right recognize name? {}".format(recognizeName == name))
+
             if recognizeName == name:
                 rightRecognizeFace += 1
 
