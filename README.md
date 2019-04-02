@@ -1,5 +1,8 @@
 # face_recognition
 Bài tập lớn Chuyên đề<br/>
+## Requirements
+1. IDE PyCharm
+2. Python 3
 ## Libraries
 1. cmake
 2. opencv-python
@@ -10,7 +13,7 @@ Bài tập lớn Chuyên đề<br/>
 ## Dataset
 [Libor Spacek's Facial Images Databases](http://cmp.felk.cvut.cz/~spacelib/faces/ "Face Recognition Data")
 ## Notes
-examples - images which is in the dataset
+examples - images which is in the dataset<br>
 examples_2 - images which is not in the dataset
 ## Usage
 Name | Usage | What's it for?
