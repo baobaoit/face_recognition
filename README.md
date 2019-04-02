@@ -9,6 +9,9 @@ Bài tập lớn Chuyên đề<br/>
 6. numpy
 ## Dataset
 [Libor Spacek's Facial Images Databases](http://cmp.felk.cvut.cz/~spacelib/faces/ "Face Recognition Data")
+## Notes
+examples - images which is in the dataset
+examples_2 - images which is not in the dataset
 ## Usage
 Name | Usage | What's it for?
 --- | --- | --- |
