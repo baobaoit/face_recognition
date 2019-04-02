@@ -18,7 +18,7 @@ print("[INFO] done!")
 # generate copy command content
 copy_command_content = ""
 for i, sub_folder in enumerate(sub_folders):
-    copy_command_content = copy_command_content + "python get_examples.py -i {} -d examples".format(sub_folder)
+    copy_command_content = copy_command_content + "python get_examples.py -i {} -d examples_2".format(sub_folder)
     if i < sub_folders.__len__() - 1:
         copy_command_content = copy_command_content + "\n"
 

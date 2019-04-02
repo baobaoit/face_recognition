@@ -38,3 +38,5 @@ destinationPath = args["destination"] + "\\" + os.path.basename(imagePath.rstrip
 print("[INFO] copying to destination path...")
 shutil.copy(imagePath, destinationPath)
 print("[INFO] copied!")
+# remove from source
+os.remove(imagePath)
