@@ -39,4 +39,6 @@ print("[INFO] copying to destination path...")
 shutil.copy(imagePath, destinationPath)
 print("[INFO] copied!")
 # remove from source
+print("[INFO] removing image from source....")
 os.remove(imagePath)
+print("[INFO] removed!")

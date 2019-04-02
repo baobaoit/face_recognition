@@ -6,6 +6,8 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--dataset", required=True,
                 help="path to input directory of faces + images")
+ap.add_argument("-d", "--destination", required=True,
+                help="path to input directory of destination example")
 args = vars(ap.parse_args())
 
 # getting list sub folder
@@ -18,7 +20,9 @@ print("[INFO] done!")
 # generate copy command content
 copy_command_content = ""
 for i, sub_folder in enumerate(sub_folders):
-    copy_command_content = copy_command_content + "python get_examples.py -i {} -d examples_2".format(sub_folder)
+    copy_command_content = copy_command_content + "python get_examples.py -i {} -d {}".format(
+        sub_folder
+        , args["destination"])
     if i < sub_folders.__len__() - 1:
         copy_command_content = copy_command_content + "\n"
 
